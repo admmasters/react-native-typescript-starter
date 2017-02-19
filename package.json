@@ -1,0 +1,29 @@
+{
+	"name": "RNTypescript",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "concurrently \"node node_modules/react-native/local-cli/cli.js start\" \"npm run tsstart\"",
+		"tsstart": "tsc --watch",
+		"test": "jest"
+	},
+	"dependencies": {
+		"react": "~15.4.0",
+		"react-native": "0.41.2"
+	},
+	"devDependencies": {
+		"@types/jest": "^18.1.1",
+		"@types/react": "^15.0.11",
+		"@types/react-native": "^0.37.12",
+		"babel-jest": "18.0.0",
+		"babel-preset-react-native": "1.9.1",
+		"concurrently": "^3.3.0",
+		"jest": "18.1.0",
+		"react-test-renderer": "~15.4.0",
+		"tslint": "^4.4.2",
+		"typescript": "rc"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
