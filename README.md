@@ -1,8 +1,14 @@
-### React Native Typescript Starter
-A React Native Starter project to get up and running with React Native and Typescript quickly.
-PLEASE NOTE: This starter uses Typescript 2.2rc which uses the "react-native" jsx option.
+React Native Typescript Starter
+===============================
+A React Native Typescript starter designed for simplicity.
 
+Motivation
+=========
+This is a React Native project designed to allow people who prefer working with TypeScript to get up and running
+quickly with a minimum of ceremony.
 
+Usage
+=====
 To get up and running just execute the below in a terminal session.
 
 ```javascript
@@ -14,3 +20,11 @@ or
 yarn
 ```
 
+Future Plans
+====
+
+- [ ] Test Coverage
+- [ ] Navigation Library
+- [ ] Component Library
+- [ ] State Management Library
+- [ ] Async Management
