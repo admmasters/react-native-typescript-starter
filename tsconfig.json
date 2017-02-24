@@ -8,6 +8,7 @@
         "sourceMap": false,
         "jsx": "react-native",
         "moduleResolution": "node",
-        "allowSyntheticDefaultImports": true
+        "allowSyntheticDefaultImports": true,
+        "strictNullChecks": true
     }
 }
