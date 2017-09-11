@@ -9,21 +9,21 @@
 		"test": "jest"
 	},
 	"dependencies": {
-		"react": "~15.4.0",
-		"react-native": "0.41.2"
+		"react": "16.0.0-beta.5",
+		"react-native": "0.48.2"
 	},
 	"devDependencies": {
-		"@types/jest": "^18.1.1",
-		"@types/react": "^15.0.11",
-		"@types/react-native": "^0.37.12",
-		"@types/react-test-renderer": "^15.4.2",
-		"babel-jest": "19.0.0",
-		"babel-preset-react-native": "1.9.1",
-		"concurrently": "^3.3.0",
-		"jest": "19.0.2",
-		"react-test-renderer": "~15.4.0",
-		"tslint": "^4.4.2",
-		"typescript": "2.2.1"
+		"@types/jest": "20.0.8",
+		"@types/react": "16.0.5",
+		"@types/react-native": "0.48.1",
+		"@types/react-test-renderer": "15.5.4",
+		"babel-jest": "21.0.2",
+		"babel-preset-react-native": "3.0.2",
+		"concurrently": "3.5.0",
+		"jest": "21.0.2",
+		"react-test-renderer": "16.0.0-rc.2",
+		"tslint": "5.7.0",
+		"typescript": "2.5.2"
 	},
 	"jest": {
 		"preset": "react-native"
