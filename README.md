@@ -5,7 +5,7 @@ A React Native Typescript starter designed for simplicity.
 Motivation
 ====
 This is a React Native project designed to allow people who prefer working with TypeScript to get up and running
-quickly with a minimum of ceremony.
+quickly.
 
 Usage
 ====
@@ -22,15 +22,11 @@ yarn
 
 Libraries
 ===
-react-native: 0.41.2
-typescript: 2.2.1
-react: 15.4.0
-jest: 19.0.2
-tslint: 4.4.2
-
-Typings
-===
-One of the aims is to make sure all the dependencies (that a user would interact with) are typed.
+react-native: 0.47.2
+typescript: 2.5.2
+react: 16.0.0-beta.12
+jest: 21.0.2
+tslint: 5.7.0
 
 Recommended Setup
 ====
@@ -40,7 +36,7 @@ other editors depending on your preference.
 Future Plans
 ====
 
-- [ ] Test Coverage
+- [x] Test Coverage
 - [ ] Navigation Library
 - [ ] Component Library
 - [ ] State Management Library
