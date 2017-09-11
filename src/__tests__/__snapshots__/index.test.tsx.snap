@@ -24,7 +24,7 @@ exports[`renders correctly 1`] = `
       }
     }
   >
-    React Native Typescript
+    React-Native TypeScript
   </Text>
 </View>
 `;
