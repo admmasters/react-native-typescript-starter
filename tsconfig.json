@@ -1,14 +1,16 @@
 {
-    "compilerOptions": {
-        "module": "es2015",
-        "target": "es2015",
-        "noImplicitAny": false,
-        "noUnusedParameters": true,
-        "noUnusedLocals": true,
-        "sourceMap": false,
-        "jsx": "react-native",
-        "moduleResolution": "node",
-        "allowSyntheticDefaultImports": true,
-        "strictNullChecks": true
-    }
+  "compilerOptions": {
+    "module": "es2015",
+    "target": "es2015",
+    "noEmit": true,
+    "noImplicitAny": false,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "sourceMap": false,
+    "jsx": "react-native",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "strictNullChecks": true
+  },
+  "exclude": ["node_modules"]
 }

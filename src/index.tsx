@@ -13,7 +13,7 @@ export default function App() {
       <StatusBar
         barStyle='light-content'
       />
-      <Text style={styles.text}>React Native Typescript</Text>
+      <Text style={styles.text}>React-Native TypeScript</Text>
     </View>
   );
 }
