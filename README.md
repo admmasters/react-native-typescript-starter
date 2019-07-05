@@ -1,5 +1,8 @@
 React Native Typescript Starter
 ====
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/admmasters/react-native-typescript-starter.svg)](https://greenkeeper.io/)
+
 A React Native Typescript starter designed for simplicity.
 
 Motivation
