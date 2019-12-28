@@ -1,48 +1,52 @@
 {
-	"name": "react-native-typescript-starter",
-	"version": "1.0.0",
-	"private": true,
-	"scripts": {
-		"start": "concurrently \"node node_modules/react-native/local-cli/cli.js start\" \"npm run tsstart\"",
-		"build": "tsc",
-		"tsstart": "tsc --watch",
-		"test": "jest"
-	},
-	"dependencies": {
-		"react": "16.0.0-alpha.12",
-		"react-native": "0.47.2"
-	},
-	"devDependencies": {
-		"@types/jest": "20.0.8",
-		"@types/react": "16.0.5",
-		"@types/react-native": "0.48.1",
-		"@types/react-test-renderer": "15.5.4",
-		"babel-jest": "^21.0.2",
-		"babel-preset-react-native": "^3.0.2",
-		"concurrently": "3.5.0",
-		"jest": "21.0.2",
-		"react-native-typescript-transformer": "^1.1.4",
-		"react-test-renderer": "16.0.0-alpha.12",
-		"ts-jest": "^21.0.0",
-		"tslint": "5.7.0",
-		"typescript": "2.5.2"
-	},
-	"jest": {
-		"preset": "react-native",
-		"transform": {
-			"^.+\\.js$": "<rootDir>/node_modules/babel-jest",
-			".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
-		},
-		"testRegex": "(/__tests__/.*\\.(test|spec))\\.(ts|tsx)$",
-		"moduleFileExtensions": [
-			"ts",
-			"tsx",
-			"js"
+  "name": "react-native-typescript-starter",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"node node_modules/react-native/local-cli/cli.js start\" \"npm run tsstart\"",
+    "build": "tsc",
+    "tsstart": "tsc --watch",
+    "test": "jest",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
+  },
+  "dependencies": {
+    "react": "16.0.0",
+    "react-native": "0.59.0",
+    "snyk": "^1.266.0"
+  },
+  "devDependencies": {
+    "@types/jest": "20.0.8",
+    "@types/react": "16.0.5",
+    "@types/react-native": "0.48.1",
+    "@types/react-test-renderer": "15.5.4",
+    "babel-jest": "^21.0.2",
+    "babel-preset-react-native": "^3.0.2",
+    "concurrently": "3.5.0",
+    "jest": "21.0.2",
+    "react-native-typescript-transformer": "^1.1.4",
+    "react-test-renderer": "16.0.0-alpha.12",
+    "ts-jest": "^21.0.0",
+    "tslint": "5.7.0",
+    "typescript": "2.5.2"
+  },
+  "jest": {
+    "preset": "react-native",
+    "transform": {
+      "^.+\\.js$": "<rootDir>/node_modules/babel-jest",
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*\\.(test|spec))\\.(ts|tsx)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
     ],
     "globals": {
       "ts-jest": {
         "useBabelrc": true
       }
     }
-	}
+  },
+  "snyk": true
 }

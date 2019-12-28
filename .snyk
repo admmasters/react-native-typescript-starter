@@ -1,0 +1,402 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - react-native > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-core > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > connect > method-override > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-register > babel-core > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-core > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > fbjs-scripts > babel-core > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-core > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-core > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-register > babel-core > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > fbjs-scripts > babel-core > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-block-scoping > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-parameters > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-plugin-transform-class-properties > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-register > babel-core > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-core > babel-register > babel-core > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-core > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-block-scoping > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-core > babel-register > babel-core > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-register > babel-core > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > fbjs-scripts > babel-core > babel-register > babel-core > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-parameters > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-class-properties > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > fbjs-scripts > babel-core > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-core > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-register > babel-core > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-core > babel-register > babel-core > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-class-properties > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > fbjs-scripts > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > fbjs-scripts > babel-core > babel-register > babel-core > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-core > babel-register > babel-core > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-core > babel-register > babel-core > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-register > babel-core > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-es2015-node > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-es2015-node > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-core > babel-register > babel-core > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > fbjs-scripts > babel-core > babel-register > babel-core > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > babel-preset-react-native > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > fbjs-scripts > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > fbjs-scripts > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > connect > body-parser > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > connect > compression > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > connect > connect-timeout > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > connect > express-session > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > connect > morgan > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > connect > serve-index > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > connect > serve-static > send > debug:
+        patched: '2019-12-28T20:19:01.978Z'
+  'npm:extend:20180424':
+    - react-native > request > extend:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > request > extend:
+        patched: '2019-12-28T20:19:01.978Z'
+  'npm:hoek:20180212':
+    - react-native > request > hawk > hoek:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > request > hawk > boom > hoek:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > request > hawk > sntp > hoek:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > request > hawk > hoek:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > request > hawk > boom > hoek:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > request > hawk > sntp > hoek:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-12-28T20:19:01.978Z'
+  'npm:lodash:20180130':
+    - react-native > plist > xmlbuilder > lodash:
+        patched: '2019-12-28T20:19:01.978Z'
+  'npm:mime:20170907':
+    - react-native > connect > serve-static > send > mime:
+        patched: '2019-12-28T20:19:01.978Z'
+  'npm:ms:20170412':
+    - react-native > connect > connect-timeout > ms:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > connect > morgan > debug > ms:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > connect > express-session > debug > ms:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > connect > compression > debug > ms:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > connect > serve-index > debug > ms:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > connect > body-parser > debug > ms:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > connect > connect-timeout > debug > ms:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > connect > serve-static > send > ms:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > connect > serve-static > send > debug > ms:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > connect > serve-favicon > ms:
+        patched: '2019-12-28T20:19:01.978Z'
+  'npm:negotiator:20160616':
+    - react-native > connect > compression > accepts > negotiator:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > connect > serve-index > accepts > negotiator:
+        patched: '2019-12-28T20:19:01.978Z'
+  'npm:stringstream:20180511':
+    - react-native > request > stringstream:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > request > stringstream:
+        patched: '2019-12-28T20:19:01.978Z'
+  'npm:tough-cookie:20170905':
+    - react-native > request > tough-cookie:
+        patched: '2019-12-28T20:19:01.978Z'
+    - react-native > metro-bundler > request > tough-cookie:
+        patched: '2019-12-28T20:19:01.978Z'
