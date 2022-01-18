@@ -9,8 +9,8 @@
 		"test": "jest"
 	},
 	"dependencies": {
-		"react": "16.0.0",
-		"react-native": "0.47.2"
+		"react": "16.5.0",
+		"react-native": "0.64.0"
 	},
 	"devDependencies": {
 		"@types/jest": "20.0.8",
